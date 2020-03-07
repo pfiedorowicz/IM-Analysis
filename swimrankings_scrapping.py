@@ -16,13 +16,9 @@ split_pattern = re.compile(r"split2[\\][']>(.....)")
 dates = []
 from_place = 1
 
-# tr = TorRequest(password="scrappingpswrdswim")
-
 base_url = "https://www.swimrankings.net/index.php"
 start_website_url = "https://www.swimrankings.net/index.php?page=rankingDetail&rankingClubId=110032779&firstPlace="
 
-# response = tr.get(start_website_url+"1")
-# site = BeautifulSoup(response.content, "html.parser")
 referers = ["http://ltuswimming.com/", "https://zwemfed.be/", "http://mwchallenge.lv/", "https://swimming.lv/",
             "https://winterswimming-bled.com/", "https://www.google.pl/", "https://www.google.com/",
             "https://www.facebook.com/", "https://www.facebook.pl/", "https://www.youtube.com/"]
@@ -84,4 +80,3 @@ df = pd.DataFrame({"Swimmer name":fullnames,
                    "Date":dates})
 
 df.to_csv("swimmers6.csv", index = False)
-
