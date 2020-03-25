@@ -67,8 +67,8 @@ From that we can see, that the second most important style in Medley is a backst
 
 ![Freestyle](plots/freestyle.png)
 
-And surprisingly, from that we can see the strongest correlation comparing to other styles. The conclusion is: freestyle is the least important style in Individual Medley. You don't have to worry about this style, because in the top of Medley swimmers there are the most swimmers with the worst freestyle.
+And surprisingly, from that we can see the strongest negative linear correlation comparing to other styles. The conclusion is: freestyle is the least important style in Individual Medley. You don't have to worry about this style, because in the top of Medley swimmers there are the most swimmers with the worst freestyle.
 
 By the way, it's the worst message for me as a swimmer, whose the best styles are the least important in Medley :(
 
-In future there will be more other interesting analysis with this data...
+In future there will be more other interesting analyses with this data...
