@@ -38,7 +38,7 @@ base_season_url = "https://www.swimrankings.net/index.php?page=rankingDetail&clu
 
 # Iterating through seasons 2005 - 2020
 for season in seasons:
-    print("Scrapping data from season: ", season)
+    print("Scraping data from season: ", season)
     from_place = 1 # To get ranking page from 1 place
 
     # Getting page with best results in season
@@ -103,7 +103,7 @@ for season in seasons:
     season_delay = np.random.choice(season_delays)
     sleep(season_delay)
 
-# Creating dataframe with scrapped data
+# Creating dataframe with scraped data
 df = pd.DataFrame({"Swimmer name":fullnames,
                    "Year of birth":years,
                    "Country":countries,
