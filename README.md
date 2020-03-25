@@ -58,12 +58,15 @@ As I expected, there is a quite clear correlation between Ranking place interval
 Besides breastroke, I decided to check other styles:
 
 ![Butterfly](plots/butterfly.png)
+
 In contrast to breastroke, butterfly shows negative linear correlation. The conclusion is: even if your Butterfly is not your the best side, you still have the chance for great results in Individual Medley.
 
 ![Backstroke](plots/backstroke.png)
+
 From that we can see, that the second most important style in Medley is a backstroke. Lower than in breastroke, but there is also positive linear correlation.
 
 ![Freestyle](plots/freestyle.png)
+
 And surprisingly, from that we can see the strongest correlation comparing to other styles. The conclusion is: freestyle is the least important style in Individual Medley. You don't have to worry about this style, because in the top of Medley swimmers there are the most swimmers with the worst freestyle.
 
 By the way, it's the worst message for me as a swimmer, whose the best styles are the least important in Medley :(
