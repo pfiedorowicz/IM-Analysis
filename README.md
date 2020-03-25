@@ -50,6 +50,7 @@ The purpose of the analysis was to assign which style is the worst for each swim
 Based on the calculations I have done plots for each style. It shows how many swimmers' the worst style is analyzed style. I splitted ranking places into intervals with 100 range and counted number of swimmers per interval.
 
 As a result we can see this plot for Breastroke:
+
 ![Breastroke](plots/breastroke.png)
 
 As I expected, there is a quite clear correlation between Ranking place interval and number or swimmers with the worst breastroke. The worse the ranking place, the more swimmers whose the worst styles is a breastroke. 
